@@ -1,12 +1,3 @@
-How to Successfully Learn in this Bootcamp
-
-Learning Objectives
-General advice and how to prepare yourself emotionally
-Some qualities of the most successful students
-Classroom culture
-Overview of common student concerns
-
-
 Emotional Framing
 Things will not go as you plan
 Deal with chaos in your head; being confused/lost is NORMAL
@@ -17,11 +8,11 @@ The maximum point of learning is right at the edge of learning and panic
 This experience is a rollercoaster
 
 
-Successful students
+
 The most successful students find programming fascinating; they don't think
 of it as an obligation or chore
 
-The most successful students go above and beyond what we teach; if there is
+The most successful students go above and beyond; if there is
 something they feel they should know, they will go and learn it
 
 If there is a problem for which they think they need more information to solve, they go and find that information
@@ -35,8 +26,6 @@ it's about developing a mindset to solve unforeseen problems
 Hard Work: the equivalent of another full-time job (~40 hrs per week)
 
 Be open and ready to receive constructive criticism
-
-
 
 Classroom Culture
 Open safe environment
@@ -58,42 +47,30 @@ Common Student Concerns
 I'm making a lot of mistakes
 Mistakes are a part of life as a developer
 
-I don't feel comfortable with the material
-You probably will never feel the material is easy, but you should be able to do the work
+
 By the end of each unit project, you should feel mostly comfortable with applying the material
 
-I feel good during class, but it's difficult to innovate on my own
+
 There are three stages to learning something:
 Imitation (follow along)
 Assimilation (repetitive simple tasks: homework and labs)
 Innovation (build something new on your own - project time)
 
-Everyone at work will realize I know nothing
-This is called the imposter syndrome, and it's very common
+
 Nobody knows everything, it's about how well you learn
 
-I don't "do" math
-That's why we have the computer do it for us!
+
+
 Programming is more about thinking logically than doing equations
 
 What's the best practice? What's the one "correct" answer?
 Best practices change constantly and from company to company
 If you think properly, you'll probably naturally arrive at a best practice
+
 All that matters is "Does it work?"
-A company that hires someone with 3 months of experience doesn't care too much about code quality
+
 Use your time to learn new technology or strengthen your problem solving
 
-I don't have a perfect understanding of everything
-Class is set up to accommodate students of all abilities
-We make sure you understand at least the most important concepts
 Only the people who write the specifications for the language understand everything about the language
 
-I want an amazing portfolio and to complete all my labs/assignments
-You won't be happy with how your first projects look/function; what matters is the ability to think
-Don't worry about completing every lab/homework
-They're there as an exercise in thinking with enough material for all
-Completing and sleeping for 2 hours is worse than sleeping and not completing
-
-
-
-In summary, we ask you to trust the process and know that if you practice what you learn long enough, the skills will come.
+Trust the process and know that if you practice what you learn long enough, the skills will come.
