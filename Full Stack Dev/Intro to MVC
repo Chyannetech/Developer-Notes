@@ -3,37 +3,29 @@ Define MVC and explain why it matters
 Move our data into a separate file
 Move our presentation code into an EJS file
 
-Define MVC and explain why it matters
+#### Define MVC and explain why it matters
+
 One of the core tenants of good programming is to compartmentalize your code
-Already our code is getting a little messy
+
+* Already our code is getting a little messy
 we have data, app instantiation (listening), and routes all in one file
-One way to keep an app from getting messy is to separate it out into three sections
-Models
-data (javascript variables)
-Views
-how the data is displayed to the user (HTML)
-Controllers
-the glue that connects the models with the views
-This allows various developers to divide up a large code base
-minimizes likelihood of developers overwriting each others code
-allows developers to specialize
-one can focus just on getting good with dealing with data
+
+* One way to keep an app from getting messy is to separate it out into three sections
+
+Models = data (javascript variables)
+
+Views = how the data is displayed to the user (HTML)
+
+Controllers = the glue that connects the models with the views
+
+This allows various developers to divide up a large code base minimizes likelihood of developers overwriting each others code
+allows developers to specialize. One can focus just on getting good with dealing with data
 one can focus just on getting good with html
-one can focus just on getting good with connecting the two
-Think of MVC as a restaurant
-Models are the cook
-prepares food/data
-Views are the customer
-consumes food/data
-Controllers are the waiter
-brings food from cook to customer
-has no idea how food/data is prepared
-has no idea how the food/data is consumed
+one can focus just on getting good with connecting the two.
 
 
-
-Move our data into a separate file
-Create a directory called modelsinside our app directory
+Move our data into a separate file -- 
+Create a directory called models inside our app directory.
 
 Inside /models, create a data file named fruits.js
 
@@ -57,15 +49,16 @@ const fruits = [
   },
 ]
 
-
 We now require that file in the original server.js
 
-const fruits = require("./models/fruits.js") //NOTE: it must start with ./ if it's just a file, not an NPM package
+const fruits = require("./models/fruits.js") //
+
+NOTE: it must start with ./ if it's just a file, not an NPM package
+
 But, we could have multiple variables in our /models/fruits.jsfile. - How does javascript know which variable in /models/fruits.jsto assign to the fruits const in server.js(the result of the require()statment)? - We must tell javascript which variable we want to be the result of the require()statement in server.js
 
 //at the bottom of /models/fruits.js
 module.exports = fruits
-
 
 
 Move our presentation code into an EJS file
@@ -73,9 +66,10 @@ Now we want to move our View code (HTML) into a separate file just like we did w
 
 Install the NPM package EJS (Embedded JavaScript)
 
-this is a templating library that allows us to mix data into our html
-the HTML will change based on the data!
+This is a templating library that allows us to mix data into our html. The HTML will change based on the data!
+
 npm install ejs
+
 Create a views directory inside our app directory
 
 Inside /views, create a file called show.ejs
@@ -93,9 +87,10 @@ Put some html into show.ejs
     <h1>Fruits show page</h1>
   </body>
 </html>
+
 Now, instead of res.send('some text'), we can call res.render('show.ejs')
 
-express will know to look inside the /viewsdirectory
+express will know to look inside the /views directory
 
 it will send the html in the show.ejs file as a response
 
